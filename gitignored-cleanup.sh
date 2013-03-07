@@ -22,7 +22,7 @@ then
 		git rm -r --cached --ignore-unmatch -- $line 2>/dev/null
 		#git rm -n -r --cached --ignore-unmatch -- $line
 	;;
-	esac
+  esac
 	
   done < $giti
 
